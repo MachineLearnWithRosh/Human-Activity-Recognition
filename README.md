@@ -9,7 +9,7 @@ Here, we will try to use the data provided by accelerometer and gyroscope of Sma
 ## Why this is Useful?
 These days, in addition to Smartphones, we are also using Smart-Watches like Fitbit or Apple-Watch, which help us to track our health. They monitor our each activity throughout the day check how many calories we have burnt. How many hours have we slept. However, in addition to Accelerometer and Gyroscope, they also use Heart-Rate data to monitor our activity. Since, we only have Smartphone data so just by using Accelerometer and Gyroscope data we will monitor the activity of a person. This software can then be converted into an App which can be downloaded in Smartphone. Hence, a person who has Smartphone can monitor his/her health using this App
 
-## Business Problem 
+## Business ProblemÂ 
 
 Work-flow is as follows:
 
@@ -27,7 +27,7 @@ By using either human engineered 561 feature data or raw features of 128 reading
 * We will apply classical Machine Learning models on these 561 sized domain expert engineered features.
 * As we know that LSTM works well on time-series data, so we have decided that we will apply LSTM of Recurrent Neural Networks on 128 sized raw readings that we obtained from accelerometer and gyroscope signals.
 
-## Sources 
+## SourcesÂ 
 Data is downloaded from following source:
 https://archive.ics.uci.edu/ml/datasets/human+activity+recognition+using+smartphones
 
@@ -59,7 +59,7 @@ You need to have installed following softwares and libraries in your machine bef
 * hyperas - used for tuning hyper-parameters for deep learning models
 
 ## Authors
-* Gaurav Sharma - Complete work  
+* Roshan Kumar Gupta - Complete work  
 
 ## Acknowledgments
 * Applied AI Course
